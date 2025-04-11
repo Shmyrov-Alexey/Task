@@ -1,0 +1,69 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.form {
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
+  background-color:#3333331f;
+  margin-bottom: 20px;
+}
+p{
+  margin-bottom: 0;
+}
+
+
+.list {
+  padding: 20px;
+  max-width: 100%;
+  gap: 20px;
+  background-color:#3333331f;
+  border-radius: 5px;
+  /* margin-bottom: 20px; */
+}
+
+.list__item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.count{
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.72);
+}
+
+.list__text{
+  margin-bottom: 0;
+  color: #767676;
+  
+}
+.list__index, span {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+.btn-wrap{
+  display: flex;
+  gap: 15px;
+}
+
+span{
+  display: inline-block;
+  width: 100px;
+  word-wrap: break-word; /* для поддержки старых браузеров */
+  overflow-wrap: break-word; /* для современных браузеров */
+}
